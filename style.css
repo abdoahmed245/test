@@ -58,7 +58,12 @@ Flexbox and floats are used as a fallback so that browsers which don't support g
     overflow: hidden;
     clip: rect(1px, 1px, 1px, 1px);
   }
-  
+  .storys{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+  }
   /* Profile Section */
   
   .profile {
@@ -366,6 +371,9 @@ Flexbox and floats are used as a fallback so that browsers which don't support g
         .sc a{
             display: none;
         }
+        .storys{
+          overflow-x: auto;
+        }
         .profile {
             padding: 5rem 0 3rem 0;
           }
@@ -410,12 +418,7 @@ Flexbox and floats are used as a fallback so that browsers which don't support g
     margin: 0 0 0 8px;
     
   }
-  .storys{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    overflow: auto;
-  }
+  
   .story{
     display: flex;
     flex-direction: column;
